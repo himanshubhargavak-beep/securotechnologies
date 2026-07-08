@@ -1852,7 +1852,9 @@ section,
 .support-counter::after {
     content: " × 7";
 }
-
+.uptime-counter::after {
+    content: "%";
+}
 .counter-wrapper{
     display:inline-flex;
     align-items:center;
