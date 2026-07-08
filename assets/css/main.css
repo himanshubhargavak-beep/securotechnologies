@@ -1852,14 +1852,6 @@ section,
 .support-counter::after {
     content: " × 7";
 }
-
-.counter-wrapper{
-    display:inline-flex;
-    align-items:center;
-    white-space:nowrap;
-}
-
-.uptime-counter::after{
-    content:"%";
-    margin-left:2px;
+.uptime-counter::after {
+    content: "%";
 }
