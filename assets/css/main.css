@@ -1848,3 +1848,7 @@ section,
 .counter-plus::after {
     content: " +";
 }
+
+.support-counter::after {
+    content: " × 7";
+}
