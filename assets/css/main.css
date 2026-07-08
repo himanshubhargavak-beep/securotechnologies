@@ -1861,3 +1861,22 @@ section,
     gap:3px;
     white-space:nowrap;
 }
+
+
+.counter-inline {
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap;
+}
+
+.counter-inline .purecounter {
+    display: inline !important;
+}
+
+.counter-inline .symbol {
+    margin-left: 2px;
+    font-size: 48px;      /* Match the number */
+    font-weight: 700;
+    color: #012970;
+    line-height: 1;
+}
