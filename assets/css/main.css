@@ -1852,3 +1852,6 @@ section,
 .support-counter::after {
     content: " × 7";
 }
+.uptime-counter::after {
+    content: "%";
+}
