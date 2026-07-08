@@ -1844,3 +1844,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.counter-plus::after {
+    content: " +";
+}
